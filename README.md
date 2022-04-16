@@ -8,7 +8,10 @@ We employ a rotation unit to spin the transmit antenna around a central axis to 
 The transmit antenna is moving on a circular trajectory with a diameter of 2m. 
 The receive antenna is located in the neighboring office, approximately 10m from the transmitter and is static.
 
-The measurement testbed is described in "https://ieeexplore.ieee.org/document/9739087" .
+The measurement testbed is described in
+> F. Pasic, S. Pratschner, R. Langwieser, D. Schützenhöfer, E. Jirousek, H. Groll, S. Caban and M. Rupp, "Sub 6 GHz versus mmWave Measurements in a Controlled High-Mobility Environment," in Proceedings of the 25th International ITG Workshop on Smart Antennas (WSA 2021), Nov. 2021.
+
+The paper is available via IEEE Explore at: https://ieeexplore.ieee.org/document/9739087
 
 ### Channel Sounding
 
@@ -19,3 +22,8 @@ We perform triggered measurements at different transmit antenna velocities.
 The transmit antenna is therefore moving on a circular arc segment during the measurement duration. 
 Through a hardware triggering unit, we ensure that measurements are performed for the same transmit antenna position at every measurement run, for both center frequencies. 
 This leads to a good comparability of different employed center frequencies and velocities.
+
+The measurement methodology is described in
+> F. Pasic, D. Schützenhöfer, E. Jirousek, R. Langwieser, H. Groll, S. Pratschner, S. Caban, S. Schwarz, M. Rupp, "Comparison of Sub 6 GHz and mmWave Wireless Channel Measurements at High Speeds," in Proceedings of the 16th European Conference on Antennas and Propagation (EuCAP 2022), Apr. 2022.
+
+The paper is available at: https://publik.tuwien.ac.at/files/publik_303834.pdf
