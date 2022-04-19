@@ -19,7 +19,7 @@ The channel sounding system uses OFDM with a low PAPR Zadoff-Chu transmit sequen
 In each measurement run we transmit a sequence of 50.000 identical OFDM symbols (500 snapshots of 100 symbols each). 
 We assume the wireless channel between the moving antenna and the static receiver to be constant in time for the duration of one snapshot.
 At the receiver side, we exploit the first OFDM symbol of each snapshot as a cyclic prefix, discard it, and perform averaging of the remaining 99 symbols to improve the signal-to-noise ratio (SNR).
-At 2.55GHz and 5.9GHz, the measurement bandwidth is 100MHz while it is 500MHz at 25.5GHz. 
+At 2.55GHz and 5.9GHz, the measurement bandwidth is 200MHz while it is 500MHz at 25.5GHz. 
 We perform triggered measurements at different transmit antenna velocities. 
 The transmit antenna is therefore moving on a circular arc segment during the measurement duration. 
 The whole rotary unit is placed on a sliding board, that can be moved along both x-axis and y-axis.
