@@ -22,6 +22,8 @@ At the receiver side, we exploit the first OFDM symbol of each snapshot as a cyc
 At 2.55GHz, the measurement bandwidth is 100MHz while it is 500MHz at 25.5GHz. 
 We perform triggered measurements at different transmit antenna velocities. 
 The transmit antenna is therefore moving on a circular arc segment during the measurement duration. 
+The whole rotary unit is placed on a sliding board, that can be moved along both x-axis and y-axis.
+To obtain different channel realizations, we perform high-speed measurements at different positions that are mutually separated by 0.4 wavelength.
 Through a hardware triggering unit, we ensure that measurements are performed for the same transmit antenna position at every measurement run, for both center frequencies. 
 This leads to a good comparability of different employed center frequencies and velocities.
 As measurement results, we obtain a time-variant channel transfer function for discrete-time (snapshots) and frequency (subcarriers).
