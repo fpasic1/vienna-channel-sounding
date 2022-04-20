@@ -46,8 +46,6 @@ The whole rotary unit is placed on a sliding board, that can be moved along both
 To obtain different channel realizations, we perform high-speed measurements at different positions that are mutually separated by 0.4 wavelength.
 Through a hardware triggering unit, we ensure that measurements are performed for the same transmit antenna position at every measurement run, for both center frequencies. 
 
-At 2.55GHz and 5.9GHz, the measurement bandwidth is 200MHz while it is 500MHz at 25.5GHz. 
-
 The measurement methodology is described in
 > F. Pasic, D. Schützenhöfer, E. Jirousek, R. Langwieser, H. Groll, S. Pratschner, S. Caban, S. Schwarz, M. Rupp, "Comparison of Sub 6 GHz and mmWave Wireless Channel Measurements at High Speeds," in Proceedings of the 16th European Conference on Antennas and Propagation (EuCAP 2022), Apr. 2022.
 
