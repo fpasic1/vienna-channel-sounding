@@ -1,4 +1,4 @@
-# Multi-band Channel Sounding Measurements in High-mobility Environment
+# Multi-band Wireless Channel Measurements in High-mobility Environment
 
 This dataset consists of indoor channel sounding measurements at 2.55GHz, 5.9GHz and 25.5GHz center frequency. 
 
