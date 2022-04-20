@@ -1,6 +1,6 @@
-# Dataset
+# Multi-band Channel Sounding Measurements in High-mobility Environment
 
-The dataset consists of indoor channel sounding measurements at 2.55GHz, 5.9GHz and 25.5GHz center frequency. 
+This dataset consists of indoor channel sounding measurements at 2.55GHz, 5.9GHz and 25.5GHz center frequency. 
 
 ### Measurement Testbed
 
