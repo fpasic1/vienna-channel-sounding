@@ -13,7 +13,6 @@ Controllability means being able to control environmental as well as system para
 We employ a rotary unit to spin the transmit antenna around a central axis to perform measurements at a constant but adjustable velocity. 
 The transmit antenna is moving with a constant velocity on a circular trajectory with a diameter of 2m.
 The receive antenna is located on a laboratory table in the neighboring room, approximately 10m from the transmitter and is static.
-
 The wireless channel can be measured with the same transmit antenna positions and the same receive antenna position but with different center frequencies and
 velocities. 
 This allows a direct comparison of the measured wireless channel in terms of fading environment and channel statistics.
@@ -32,19 +31,22 @@ The measurement testbed is described in
 The paper is available via IEEE Explore at: https://ieeexplore.ieee.org/document/9739087
 
 ### Channel Sounding
-
-The channel sounding system uses OFDM with a low PAPR Zadoff-Chu transmit sequence. 
+The channel sounding wireless channel measurements have been performed in a controlled indoor laboratory environment.
+The system transmits a series of identical OFDM symbols forming a low PAPR Zadoff-Chu channel sounding sequence.
 In each measurement run we transmit a sequence of 50.000 identical OFDM symbols (500 snapshots of 100 symbols each). 
 We assume the wireless channel between the moving antenna and the static receiver to be constant in time for the duration of one snapshot.
 At the receiver side, we exploit the first OFDM symbol of each snapshot as a cyclic prefix, discard it, and perform averaging of the remaining 99 symbols to improve the signal-to-noise ratio (SNR).
-At 2.55GHz and 5.9GHz, the measurement bandwidth is 200MHz while it is 500MHz at 25.5GHz. 
-We perform triggered measurements at different transmit antenna velocities. 
-The transmit antenna is therefore moving on a circular arc segment during the measurement duration. 
+As measurement results, we obtain a time-variant channel transfer function for discrete-time (snapshots) and frequency (subcarriers).
+
+The transmission is initiated and stopped by the trigger unit when the rotating arm reaches angular position of -40 degrees and +40 degrees, respectively.
+Thereby, the transmit antenna is moving on a circular arc segment during the measurement duration.
+This leads to a good comparability of different employed center frequencies and velocities.
+
 The whole rotary unit is placed on a sliding board, that can be moved along both x-axis and y-axis.
 To obtain different channel realizations, we perform high-speed measurements at different positions that are mutually separated by 0.4 wavelength.
 Through a hardware triggering unit, we ensure that measurements are performed for the same transmit antenna position at every measurement run, for both center frequencies. 
-This leads to a good comparability of different employed center frequencies and velocities.
-As measurement results, we obtain a time-variant channel transfer function for discrete-time (snapshots) and frequency (subcarriers).
+
+At 2.55GHz and 5.9GHz, the measurement bandwidth is 200MHz while it is 500MHz at 25.5GHz. 
 
 The measurement methodology is described in
 > F. Pasic, D. Schützenhöfer, E. Jirousek, R. Langwieser, H. Groll, S. Pratschner, S. Caban, S. Schwarz, M. Rupp, "Comparison of Sub 6 GHz and mmWave Wireless Channel Measurements at High Speeds," in Proceedings of the 16th European Conference on Antennas and Propagation (EuCAP 2022), Apr. 2022.
