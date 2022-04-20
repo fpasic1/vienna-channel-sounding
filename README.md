@@ -4,9 +4,27 @@ The dataset consists of indoor channel sounding measurements at 2.55GHz, 5.9GHz 
 
 ### Measurement Testbed
 
-We employ a rotation unit to spin the transmit antenna around a central axis to perform measurements at a constant but adjustable velocity. 
-The transmit antenna is moving on a circular trajectory with a diameter of 2m. 
-The receive antenna is located in the neighboring office, approximately 10m from the transmitter and is static.
+This measurement testbed enables a fair comparison between different frequency bands (sub-6 GHz and mmWave) in a repeatable and controlled high-mobility environment.
+Repeatability is the ability to repeat a measurement with equal channel conditions, which is hardly possible by conducting real-world drive-by measurements.
+Controllability means being able to control environmental as well as system parameters, for example, the signal-to-noise ratio (SNR).
+
+#### Architecture
+
+We employ a rotary unit to spin the transmit antenna around a central axis to perform measurements at a constant but adjustable velocity. 
+The transmit antenna is moving with a constant velocity on a circular trajectory with a diameter of 2m.
+The receive antenna is located on a laboratory table in the neighboring room, approximately 10m from the transmitter and is static.
+
+The wireless channel can be measured with the same transmit antenna positions and the same receive antenna position but with different center frequencies and
+velocities. 
+This allows a direct comparison of the measured wireless channel in terms of fading environment and channel statistics.
+For a direct and fair comparison of the measurement scenarios, the fading environment (the laboratory) has to be static.
+
+#### Synchronization
+To provide precise frequency synchronization, the arbitrary waveform generator at the transmitter and the signal analyzer at the receiver are interconnected with
+a 100 MHz reference. 
+This connection by a cable is a big plus of the proposed setup, not feasible in, for example, drive-by measurements, where expensive rubidium frequency standards need to be employed to ensure precise synchronization.
+The same holds true for time synchronization. 
+In the proposed setup, we can repeatably trigger a measurement at a precisely defined position of a rotary arm by using a rotational encoder. The signal of the rotary encoder is decoded by a counter and a comparator to form a trigger signal that is fed through cables to the arbitrary waveform generator at the transmitter and the signal analyzer at the receiver.
 
 The measurement testbed is described in
 > F. Pasic, S. Pratschner, R. Langwieser, D. Schützenhöfer, E. Jirousek, H. Groll, S. Caban and M. Rupp, "Sub 6 GHz versus mmWave Measurements in a Controlled High-Mobility Environment," in Proceedings of the 25th International ITG Workshop on Smart Antennas (WSA 2021), Nov. 2021.
