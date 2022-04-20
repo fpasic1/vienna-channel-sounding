@@ -18,7 +18,7 @@ velocities.
 This allows a direct comparison of the measured wireless channel in terms of fading environment and channel statistics.
 For a direct and fair comparison of the measurement scenarios, the fading environment (the laboratory) has to be static.
 
-![rotary_with_raumplan](https://user-images.githubusercontent.com/103816150/164254453-af90367d-c4d2-4576-97fd-1b5dde3c248e.jpg)
+![rotary_with_raumplan](https://user-images.githubusercontent.com/103816150/164254885-a1b9418a-7282-4c8c-ad05-d33fe0389588.jpg)
 
 
 #### Synchronization
