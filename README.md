@@ -18,6 +18,9 @@ velocities.
 This allows a direct comparison of the measured wireless channel in terms of fading environment and channel statistics.
 For a direct and fair comparison of the measurement scenarios, the fading environment (the laboratory) has to be static.
 
+[Rotary_with_raumplan.pdf](https://github.com/fpasic1/vienna-channel-sounding/files/8522361/Rotary_with_raumplan.pdf)
+
+
 #### Synchronization
 To provide precise frequency synchronization, the arbitrary waveform generator at the transmitter and the signal analyzer at the receiver are interconnected with
 a 100 MHz reference. 
@@ -44,7 +47,7 @@ This leads to a good comparability of different employed center frequencies and 
 
 The whole rotary unit is placed on a sliding board, that can be moved along both x-axis and y-axis.
 To obtain different channel realizations, we perform high-speed measurements at different positions that are mutually separated by 0.4 wavelength.
-Through a hardware triggering unit, we ensure that measurements are performed for the same transmit antenna position at every measurement run, for both center frequencies. 
+Through a hardware triggering unit, we ensure that measurements are performed for the same transmit antenna position at every measurement run, for different center frequencies. 
 
 The measurement methodology is described in
 > F. Pasic, D. Schützenhöfer, E. Jirousek, R. Langwieser, H. Groll, S. Pratschner, S. Caban, S. Schwarz, M. Rupp, "Comparison of Sub 6 GHz and mmWave Wireless Channel Measurements at High Speeds," in Proceedings of the 16th European Conference on Antennas and Propagation (EuCAP 2022), Apr. 2022.
