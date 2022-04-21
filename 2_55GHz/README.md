@@ -2,7 +2,7 @@
 
 This dataset contains measured time-variant channel transfer functions of the indoor channel sounding measurement campaign at 2.55GHz center frequency.
 
-| Parameter                   | Value                         |
+| Parameter                   | Value         |               |
 | -------------               | ------------- | ------------- |
 | Transmitter Velocity (km/h) | 50  |         | 100           |
 | Number of Subcarriers       | 400  |        | 200           |
