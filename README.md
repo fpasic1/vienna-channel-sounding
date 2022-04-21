@@ -40,6 +40,7 @@ In each measurement run we transmit a sequence of 50.000 identical OFDM symbols 
 We assume the wireless channel between the moving antenna and the static receiver to be constant in time for the duration of one snapshot.
 At the receiver side, we exploit the first OFDM symbol of each snapshot as a cyclic prefix, discard it, and perform averaging of the remaining 99 symbols to improve the signal-to-noise ratio (SNR).
 As measurement results, we obtain a time-variant channel transfer function for discrete-time (snapshots) and frequency (subcarriers).
+Measured time-variant channel transfer functions are provided above with corresponding measurement parameters.
 
 The transmission is initiated and stopped by the trigger unit when the rotating arm reaches angular position of -40 degrees and +40 degrees, respectively.
 Thereby, the transmit antenna is moving on a circular arc segment during the measurement duration.
