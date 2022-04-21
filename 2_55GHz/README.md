@@ -15,8 +15,9 @@ This dataset contains measured time-variant channel transfer functions of the in
 | Number of Snapshots         | 500                          ||
 | Symbols per Snapshot        | 100                          ||
 
-|              |          Grouping           ||
-| First Header | Second Header | Third Header |
-| ------------ | :-----------: | -----------: |
-| Content      |          *Long Cell*        ||
-| Content      |   **Cell**    |         Cell |
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
