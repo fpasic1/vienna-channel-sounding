@@ -5,7 +5,7 @@ This dataset consists of time-varying channel transfer functions obtained throug
 The dataset entries are given as complex-valued numpy (.npy) files in which rows and columns represent different snapshots and subcarriers, respectively. 
 The entries are classified in four categories depending on the measurement scenarios.
 
-![generateTable](https://user-images.githubusercontent.com/103816150/235702203-b4a9fed7-fb39-4f8b-8c14-978943a8f2e7.jpg  | width=100)
+![generateTable](https://user-images.githubusercontent.com/103816150/235702203-b4a9fed7-fb39-4f8b-8c14-978943a8f2e7.jpg)
 
 For each scenario, there are 126 channel realizations obtained by conducting measurements at different positions according to the given rectangular grid.
 
